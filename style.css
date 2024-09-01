@@ -1,0 +1,124 @@
+.logo {
+    height: 30px;
+}
+
+.nav-background {
+    background-color: #fff;
+}
+
+.banner {
+    height: 400px;
+}
+
+.consultation {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.mainDiv1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.com-logo {
+    height: 40px;
+}
+
+.com-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.logo-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.mainDiv2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.service {
+    background-color: #b9ff66;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width:768px) {
+    .com-logo-container {
+        flex-direction: column;
+    }
+}
+
+.main1 {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    background-color: #f3f3f3;
+    width: fit-content;
+    padding: 30px;
+    border: 1px solid #000;
+    border-radius: 50px;
+}
+
+.img1 {
+    height: 150px;
+}
+
+.sub1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.cardsDiv {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    background-color: #b9ff66;
+    width: fit-content;
+    padding: 30px;
+    border: 1px solid #000;
+    border-radius: 50px;
+}
+
+@media screen and (max-width:1000px) {
+    .cardsDiv {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+.styleh4 {
+    background-color: #fff;
+}
